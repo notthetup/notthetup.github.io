@@ -1,0 +1,9 @@
+## Jekyll
+_site/
+node_modules/
+
+## Setup
+cleanup/
+archives/
+import/
+attachments/
