@@ -240,7 +240,7 @@ body {
 }
 #container {
     margin: 0 auto;
-    width: 480px;
+    width: 520px;
     display: block;
 }
 h1 {
@@ -315,35 +315,34 @@ h2 {
     background-repeat: no-repeat;
     margin: 20px 5px;
 }
+
 #socialpanel ul#social li:nth-child(1) a {
+    /*mail*/
     background: url(../../images/social.png) 0 0;
 }
 #socialpanel ul#social li:nth-child(2) a {
+    /*rss*/
     background: url(../../images/social.png) -80px 0;
 }
-/*#socialpanel ul#social li:nth-child(3) a {
-    background: url(../../images/social.png) -160px 0;
-}*/
 #socialpanel ul#social li:nth-child(3) a {
-    background: url(../../images/social.png) -240px 0;
+     /*slideshare*/
+    background: url(../../images/social.png) -400px -100px;
 }
 #socialpanel ul#social li:nth-child(4) a {
-    background: url(../../images/social.png) -320px 0;
-}
-#socialpanel ul#social li:nth-child(5) a {
+    /*github*/
     background: url(../../images/social.png) 0 -100px;
 }
-#socialpanel ul#social li:nth-child(6) a {
+#socialpanel ul#social li:nth-child(5) a {
+     /*stackoverflow*/
     background: url(../../images/social.png) -80px -100px;
 }
+#socialpanel ul#social li:nth-child(6) a {
+    /*twitter*/
+    background: url(../../images/social.png) -320px 0;
+}
 #socialpanel ul#social li:nth-child(7) a {
-    background: url(../../images/social.png) -240px -100px;
-}
-#socialpanel ul#social li:nth-child(8) a {
-    background: url(../../images/social.png) -320px -100px;
-}
-#socialpanel ul#social li:nth-child(9) a {
-    background: url(../../images/social.png) -400px -100px;
+    /*facebook*/
+    background: url(../../images/social.png) -240px 0;
 }
 
 #socialpanel ul#social li a {
