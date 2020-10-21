@@ -12,8 +12,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Debug Action
-        uses: hmarr/debug-action@v1.0.0
       - name: Cloudflare Purge Cache
         uses: jakejarvis/cloudflare-purge-action@v0.3.0
         env:
